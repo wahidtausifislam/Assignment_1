@@ -75,6 +75,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/08/image-removebg-preview-2-6.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 100,
                   ),
@@ -95,6 +98,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2022/08/B19-1.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -115,6 +121,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/09/aoc27G2SP-1.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -135,6 +144,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2021/08/1%D8%B9.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -155,6 +167,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2021/12/image-removebg-preview-2021-12-21T190042.214.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -175,6 +190,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2022/08/B18-2.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -195,6 +213,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2022/08/N3-7.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -215,6 +236,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/03/890-2.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -235,6 +259,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/02/HP-EliteBook-745-G6-4.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -255,6 +282,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/10/Anker-Eufy-5-Piece-Home-Alarm-Kit-T8990321-1.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -275,6 +305,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2022/08/image-removebg-preview-3.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -295,6 +328,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/07/convert-360-HDMI-TO-HDMI.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -315,6 +351,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/02/HP-EliteBook-745-G6-4.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -335,6 +374,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2022/08/B18-2.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -354,7 +396,10 @@ class Productlist extends StatelessWidget {
               child: Column(
                 children: [
                   Image.network(
-                    "https://computecheg.com/wp-content/uploads/2022/08/B18-2.png",
+                    "https://computecheg.com/wp-content/uploads/2022/01/image-removebg-preview-2022-01-10T221258.241.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 120,
                     width: 145,
                   ),
@@ -375,6 +420,9 @@ class Productlist extends StatelessWidget {
                 children: [
                   Image.network(
                     "https://computecheg.com/wp-content/uploads/2023/07/convert-360-HDMI-TO-HDMI.png",
+                    errorBuilder: (_, __, ___) {
+                      return const Icon(Icons.image);
+                    },
                     height: 125,
                     width: 140,
                   ),

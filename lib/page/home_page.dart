@@ -1,29 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Homepage extends StatefulWidget {
+class Homepage extends StatelessWidget {
   Homepage({super.key});
 
-  List<String> product = [
-    "product name",
-    "product name",
-    "product name",
-    "product name",
-    "product name",
-    "product name",
-  ];
-
-  @override
-  State<Homepage> createState() => _HomepageState();
-}
-
-class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Drawer(
         child: DrawerHeader(
-          margin: EdgeInsets.zero,
+          margin: EdgeInsets.all(10),
           padding: EdgeInsets.zero,
           child: Column(
             children: [
@@ -53,10 +39,11 @@ class _HomepageState extends State<Homepage> {
                 ),
               ),
               SizedBox(
-                height: 500,
+                height: 410,
                 width: 600,
                 child: Container(
-                  child: Text("My Name is Wahid Tausif Islam"),
+                  child: Text(
+                      "My Name is Wahid Tausif Islam, My Hometown is in Rangpur Bangladesh. For Study Purpose, Now I live In Dhaka. Recently I have completed my Graduation from Daffodil International University, Department of Computer Science and Engineering. Now I am Learning Mobile Application Development with Flutter. Before that I learnt app development with Java. I really Like developing mobile applications. Its My Passion."),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     border: Border.all(color: Colors.black12, width: 2),
@@ -71,9 +58,6 @@ class _HomepageState extends State<Homepage> {
             ],
           ),
         ),
-      ),
-      appBar: AppBar(
-        backgroundColor: Colors.green,
       ),
     );
   }
